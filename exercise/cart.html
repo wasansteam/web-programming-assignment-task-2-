@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>CornerMart | My Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">🛒 CornerMart</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop Products</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="cart.html" class="active">My Cart</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Your Shopping Cart</h1>
+        <p>Review your selected items before checking out.</p>
+
+        <div id="cart-wrapper">
+            <div id="cart-items-list"></div>
+            
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <p>Total Items: <span id="total-count">0</span></p>
+                <p>Grand Total: <span id="cart-total">$0.00</span></p>
+                <button id="clear-cart-btn" class="secondary-btn">Clear Cart</button>
+                <button id="checkout-btn" class="submit-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 CornerMart. Built for Web Development Assessment 1.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
